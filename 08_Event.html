@@ -39,14 +39,15 @@
 
     <script>
       (() => {
-        const ilbuni = document.querySelector(".ilbuni.c");
-        console.log(ilbuni);
+        const characters = document.querySelector(".characters");
 
         const clickIlbuniHandler = () => {
-          ilbuni.classList.toggle("special");
+          console.log(this);
+          console.log(e.currentTarget);
+          console.log(e.target);
         };
 
-        ilbuni.addEventListener("click", clickIlbuniHandler);
+        characters.addEventListener("click", clickIlbuniHandler);
       })();
     </script>
   </body>
