@@ -48,9 +48,21 @@
     <script>
       //   const ilbuniGroup = document.querySelectorAll(".ilbuni");
       //   const ilbuniTwo = document.querySelectorAll(".ilbuni:nth-child(2)");
-      const character = document.querySelector(".characters");
-      character.setAttribute("data-id", 123); /*값을 줄때*/
-      character.getAttribute("data-id"); /*값을 갖고올때*/
+
+      //   const character = document.querySelector(".characters");
+      //   character.setAttribute("data-id", 123); /*값을 줄때*/
+      //   character.getAttribute("data-id"); /*값을 갖고올때*/
+
+      //   const pElement = document.createElement("p");
+      //   pElement.innerHTML = '<a href="#">안녕</a>??';
+      //   const characterElement = document.querySelector(".characters");
+      //   characterElement.appendChild(pElement);
+      //   characterElement.removeChild(document.querySelector(".b"));
+
+      const ilbuni = document.querySelector(".ilbuni");
+      ilbuni.classList.add("special");
+      /*ilbuni.classList.remove("ilbuni");*/
+      ilbuni.classList.toggle("ilbuni");
     </script>
   </body>
 </html>
